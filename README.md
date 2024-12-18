@@ -1,0 +1,2 @@
+# ArchitecturalPattern
+ArchitecturalPattern samplecode
