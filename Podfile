@@ -8,4 +8,8 @@ target 'ArchitecturalPattern' do
   # Pods for ArchitecturalPattern
   pod 'SnapKit'
   pod 'Then'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Toast-Swift'
+  pod 'SVProgressHUD'
 end

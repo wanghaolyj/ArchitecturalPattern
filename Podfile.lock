@@ -1,20 +1,44 @@
 PODS:
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
   - SnapKit (5.7.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
   - Then (3.0.0)
+  - Toast-Swift (5.1.1)
 
 DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
   - SnapKit
+  - SVProgressHUD
   - Then
+  - Toast-Swift
 
 SPEC REPOS:
   trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
+    - SVProgressHUD
     - Then
+    - Toast-Swift
 
 SPEC CHECKSUMS:
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
 
-PODFILE CHECKSUM: c8e3870ba75fbbcad9417c6de8568840b3ac23a6
+PODFILE CHECKSUM: 44ffe661bb3b0c84892bfd2e880cd3df42ac1b6d
 
 COCOAPODS: 1.16.2

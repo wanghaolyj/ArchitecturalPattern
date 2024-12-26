@@ -45,15 +45,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch viewList[indexPath.row] {
         case .mvc:
-            self.navigationController?.pushViewController(LoginViewController(), animated: true)
+            self.navigationController?.pushViewController(MVCSample.LoginViewController(), animated: true)
         case .mvvm:
-            break
+            self.navigationController?.pushViewController(MVVMSample.LoginViewController(), animated: true)
         case .mvi:
-            break
+            self.navigationController?.pushViewController(MVISample.LoginViewController(), animated: true)
+        case .MVVMImprovement:
+            self.navigationController?.pushViewController(MVVMImprovement.LoginViewController(), animated: true)
         case .mvp:
-            break
+            self.navigationController?.pushViewController(MVPSample.LoginViewController(), animated: true)
         case .viper:
-            break
+            self.navigationController?.pushViewController(VIPERSample.LoginModule.createModule(), animated: true)
         }
     }
     
@@ -63,6 +65,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 enum ViewType {
     case mvc
     case mvvm
+    case MVVMImprovement
     case mvi
     case mvp
     case viper
@@ -79,6 +82,8 @@ enum ViewType {
             return "MVP"
         case .viper:
             return "Viper"
+        case .MVVMImprovement:
+            return "MVVMImprovement"
         }
     }
 
