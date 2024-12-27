@@ -77,7 +77,7 @@ class MVPSample {
             super.viewDidLoad()
 
             // Do any additional setup after loading the view.
-            self.title = "MVC"
+            self.title = "MVP"
             self.view.backgroundColor = .systemBackground
             
             self.view.addSubview(userNameTextField)
